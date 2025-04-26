@@ -3,19 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css"
+    <title>web converse</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- header content -->
+<!-- header content -->
     <header>
-
+        <h1>Website konversi suhu</h1>
     </header>
-    <!-- main -->
-    <main></main>
-    <!-- footer -->
+<!-- main -->
+    <main>
+
+<!-- introduction -->
+        <section>
+<p>halo, selamat datng di website konversi suhu buatan saya hehe</p>
+        </section>
+<!-- form konversi suhu -->
+     <form class="section-content">
+<div class="section-item">
+    <label for="konversi-input">Celcius (&deg;C)</label>
+</div>
+
+<div class="section-item">
+   <textarea id="konversi-input"></textarea>
+</div>
+<!-- form action -->
+<div class="section-item">
+    <button class="bg-1">Konversi</button>
+    <button class="bg-2">Reset</button>
+    <button class="bg-3">Reverse</button>
+</div>
+     </form>
+
+<!-- hasil konversi -->
+<section class="section-content">
+    <div>
+    <label for="result-input">Fahrenheit (&deg;F)</label>
+</div>
+<div>
+   <textarea id="result-input" readonly></textarea>
+</div>
+</section>
+
+<!-- penjelasan -->
+<section class="section-content">
+    <div>
+        <label for="calculate-detail">cara kalkulasi:</label>
+    </div>
+    <div>
+       <textarea id="calculate-detail" readonly></textarea>
+    </div>
+</section>
+
+<!-- informasi tambahan -->
+ <section>
+    <header>
+        <h1>Cara konversi dari Celcius (&deg;C) ke Fahrenheit (&deg;F)</h1>
+    </header>
+
+    <hr />  
+
+    <!-- Konten informasi -->
+    <article>
+<p>Suhu <span class="formula">S</span> dalam derajat Fahrenheit (&deg;F) </p>
+
+<!-- Formula -->
+<div class="formula">
+    S<sub>(&deg;F)</sub> = (S<sub>(&deg;C)</sub> x 9/5) + 32 
+ </div>
+ <div>
+    atau
+ </div>
+  
+ <div class="formula">
+    S<sub>(&deg;F)</sub> = (S<sub>(&deg;C)</sub> x 1,8) + 32 
+ </div>
+    </article>
+ </section> 
+
+
+ </main>
+
+<!-- footer -->
      <footer>
-        
+<p>&copy; 2025, Aurellia. All rights reserved.</p>
      </footer>
 </body>
 </html>
